@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Kokoa Talk</title>
   </head>
   <body>
-    <div id="status-bar">
+    <div class="status-bar">
       <div class="status-bar_column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
@@ -20,19 +21,18 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-    <header class="welocme-header">
+    <header class="welcome-header">
       <h1 class="welcome-header_title">Welcome to kokoaTalk</h1>
       <p class="welcome-header_text">
         IF you here a Kokoa Account, log in with your email or phone number.
       </p>
     </header>
-    <form id="login-form"></form>
+    <form id="login-form">
       <input type="text" placeholder="Email or phone number" />
       <input type="password" placeholder="Password" />
-      <button type="button">Log in</button>
-      <button type="button">Sign Up</button>
+      <input type="submit" value="Log In" />
       <a href="#">Find Kokoa Account or Password</a>
-    </form>   
+    </form>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
