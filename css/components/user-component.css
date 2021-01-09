@@ -46,3 +46,8 @@
   display: block;
   margin-bottom: 15px;
 }
+.user-component_subtitle i {
+  color: tomato;
+  opacity: 0.5;
+  margin-left: 10px;
+}
